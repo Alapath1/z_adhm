@@ -1,7 +1,7 @@
-FROM zed-thon/z_ubot:slim-buster
+FROM Alapath1/zthon:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/zed-thon/z_ubot.git /root/zthon
+RUN git clone https://github.com/Alapath1/zthon.git /root/zthon
 #working directory 
 WORKDIR /root/zthon
 
